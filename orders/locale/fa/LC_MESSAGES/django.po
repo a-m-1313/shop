@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-09 14:22+0330\n"
-"PO-Revision-Date: 2024-03-09 14:26+0330\n"
+"POT-Creation-Date: 2024-03-13 00:43+0330\n"
+"PO-Revision-Date: 2024-03-13 00:44+0330\n"
 "Last-Translator:   <arsalwn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,10 +46,6 @@ msgstr "توضیحات اضافه"
 msgid "Order"
 msgstr "ترتیب"
 
-#: .\models.py:26
-msgid "order_items"
-msgstr "مورد سفارش"
-
 #: .\models.py:27
 msgid "Product"
 msgstr "محصول"
@@ -61,3 +57,20 @@ msgstr "تعداد"
 #: .\models.py:29
 msgid "Price"
 msgstr "قیمت"
+
+#: .\templates\orders\order_create.html:5
+#| msgid "Order"
+msgid "order"
+msgstr "ترتیب"
+
+#: .\templates\orders\order_create.html:58
+msgid "send"
+msgstr "ارسال"
+
+#: .\templates\orders\order_create.html:86
+#: .\templates\orders\order_create.html:95
+msgid "$"
+msgstr "تومان"
+
+#~ msgid "order_items"
+#~ msgstr "مورد سفارش"

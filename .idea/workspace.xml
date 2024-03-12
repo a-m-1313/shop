@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66d2f593-1249-45d0-9a80-4ac6061eadf1" name="Changes" comment="&quot;new project&quot;">
-      <change afterPath="$PROJECT_DIR$/orders/templates/orders/order_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders/urls.py" afterDir="false" />
+    <list default="true" id="66d2f593-1249-45d0-9a80-4ac6061eadf1" name="Changes" comment="'order '">
+      <change afterPath="$PROJECT_DIR$/orders/templates/orders/errors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/locale/fa/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/orders/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/locale/fa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/orders/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,6 +185,8 @@
       <workItem from="1709893044123" duration="55000" />
       <workItem from="1709977827382" duration="4586000" />
       <workItem from="1710146143870" duration="4972000" />
+      <workItem from="1710237651034" duration="293000" />
+      <workItem from="1710274831323" duration="5208000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;new project&quot;">
       <created>1706195488303</created>
@@ -218,15 +219,47 @@
       <option name="project" value="LOCAL" />
       <updated>1710146275294</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="''">
+      <option name="closed" value="true" />
+      <created>1710237833019</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710237833019</updated>
+    </task>
+    <task id="LOCAL-00006" summary="'order '">
+      <option name="closed" value="true" />
+      <created>1710274927985</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710274927985</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1ef2419d-d38a-4d4e-9911-ac4cd2ee3980" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="1ef2419d-d38a-4d4e-9911-ac4cd2ee3980">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -238,7 +271,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;new project&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;new project&quot;" />
+    <MESSAGE value="'order '" />
+    <option name="LAST_COMMIT_MESSAGE" value="'order '" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/shop$smso.coverage" NAME="smso Coverage Results" MODIFIED="1709030027028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../python" />
