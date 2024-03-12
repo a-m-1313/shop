@@ -19,7 +19,7 @@ class PageAdmin(ModelAdminJalaliMixin, admin.ModelAdmin):
 
     @admin.display(description='تاریخ ایجاد', ordering='created')
     def get_created_jalali(self, obj):
-        return datetime2jalali(obj.date_created).strftime('%d / %m / %Y / %H:%M:%S')
+        return datetime2jalali(obj.date_created).strftime('%d / %m / %Y  | %H:%M:%S')
 
 
 @admin.register(OrderItem)
